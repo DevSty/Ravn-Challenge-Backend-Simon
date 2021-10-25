@@ -41,6 +41,15 @@ inner join sale_items sl on b.id_serial=sl.book_id order by sl.item_price DESC
 
 # API
 
+
+# PAGEABLE
+
 ![](img/API.png)
+
+# GET ID
+
 ![](img/API%20GetID.png)
+
+# STATUS CODE 
+
 ![](img/Api%20404%20Not%20FOUND.png)
