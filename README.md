@@ -23,3 +23,6 @@ inner join sale_items sl on b.id_serial=sl.book_id where a.name='Lorelai Gilmore
 
 select a.name , b.author_id, sl.item_price  from authors a inner join books b on a.id_serial=b.author_id
 inner join sale_items sl on b.id_serial=sl.book_id order by sl.item_price DESC
+
+
+API GetID.png
