@@ -25,3 +25,9 @@ select a.name , b.author_id, sl.item_price  from authors a inner join books b on
 inner join sale_items sl on b.id_serial=sl.book_id order by sl.item_price DESC
 
 ![](img/Tomcat%20started.png)
+![](img/Relation%20DB%20Keys.png)
+![](img/Relation%20DB.png)
+![](img/SQL.png)
+![](img/API.png)
+![](img/API%20GetID.png)
+![](img/Api%20404%20Not%20FOUND.png)
