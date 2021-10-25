@@ -6,13 +6,15 @@ import.sql
 
 ![](img/Tomcat%20started.png)
 
-# Relation BD
+# RELATION BD
 
 ![](img/Relation%20DB.png)
 
-# Relation Keys
+# RELATION KEYS
 
 ![](img/Relation%20DB%20Keys.png)
+
+# SHOW DATA
 
 SELECT a.id_serial,a.name,a.date_of_birth,b.author_id,b.is_bn,
 		sl.book_id,sl.customer_name,sl.item_price
@@ -21,7 +23,10 @@ inner join sale_items sl on b.author_id=sl.book_id
 
 ![](img/SQL.png)
 
+# QUERYS
+
 1) Who are the first 10 authors ordered by date_of_birth?
+
 SELECT TOP 10 * FROM authors ORDER BY  date_of_birth DESC
 
 2) What is the sales total for the author named “Lorelai Gilmore”?
