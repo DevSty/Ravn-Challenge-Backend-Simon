@@ -6,9 +6,12 @@ import.sql
 
 ![](img/Tomcat%20started.png)
 
-#Relation BD
+# Relation BD
 
 ![](img/Relation%20DB.png)
+
+# Relation Keys
+
 ![](img/Relation%20DB%20Keys.png)
 
 SELECT a.id_serial,a.name,a.date_of_birth,b.author_id,b.is_bn,
@@ -31,7 +34,7 @@ inner join sale_items sl on b.id_serial=sl.book_id where a.name='Lorelai Gilmore
 select a.name , b.author_id, sl.item_price  from authors a inner join books b on a.id_serial=b.author_id
 inner join sale_items sl on b.id_serial=sl.book_id order by sl.item_price DESC
 
-#API
+# API
 
 ![](img/API.png)
 ![](img/API%20GetID.png)
