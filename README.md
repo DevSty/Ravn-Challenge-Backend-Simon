@@ -4,12 +4,19 @@ Data in src\main\resources
 
 import.sql
 
-Relation BD
+![](img/Tomcat%20started.png)
+
+#Relation BD
+
+![](img/Relation%20DB.png)
+![](img/Relation%20DB%20Keys.png)
 
 SELECT a.id_serial,a.name,a.date_of_birth,b.author_id,b.is_bn,
 		sl.book_id,sl.customer_name,sl.item_price
 FROM authors a inner join books b on a.id_serial=b.author_id
 inner join sale_items sl on b.author_id=sl.book_id
+
+![](img/SQL.png)
 
 1) Who are the first 10 authors ordered by date_of_birth?
 SELECT TOP 10 * FROM authors ORDER BY  date_of_birth DESC
@@ -24,10 +31,8 @@ inner join sale_items sl on b.id_serial=sl.book_id where a.name='Lorelai Gilmore
 select a.name , b.author_id, sl.item_price  from authors a inner join books b on a.id_serial=b.author_id
 inner join sale_items sl on b.id_serial=sl.book_id order by sl.item_price DESC
 
-![](img/Tomcat%20started.png)
-![](img/Relation%20DB%20Keys.png)
-![](img/Relation%20DB.png)
-![](img/SQL.png)
+#API
+
 ![](img/API.png)
 ![](img/API%20GetID.png)
 ![](img/Api%20404%20Not%20FOUND.png)
